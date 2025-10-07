@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>preguntas</title>
+  <link rel="stylesheet" href="./assets/style.css">
+  <script defer src="./assets/script.js"></script>
+  <!--fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap"
+    rel="stylesheet">
+  <!--animaciones-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+<script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
+
+</head>
+
+<body class="bodyPreguntas">
+  <img src="./img/cursor.png" class="custom-cursor" id="custom-cursor" />
+
+  <div class="enunciado" id="enunciadoCaja">
+    <div class="pregunta" id="preguntaTexto"></div>
+
+  </div>
+  <div class="respuestas" id="respuestasCaja">
+    <div class="opcion" id="opcionA">
+       <input type="radio" name="respuesta" value="A">
+        <span class="texto"></span>
+    </div>
+    <div class="opcion" id="opcionB">
+       <input type="radio" name="respuesta" value="B">
+       <span class="texto"></span>
+    </div>
+    <div class="opcion" id="opcionC">
+       <input type="radio" name="respuesta" value="C">
+       <span class="texto"></span>
+    </div>
+    <div class="opcion" id="opcionD">
+       <input type="radio" name="respuesta" value="D">
+       <span class="texto"></span>
+    </div>
+
+  </div>
+<button id="botonSiguiente" class="botonSiguiente">Siguiente</button>
+<div>Puntos <span id="puntuacion">0</span></div>
+
+<div id="pantallaFinal" class="pantalla-final">
+  <div class="contenido-final">
+    <h2 id="mensajeFinal"></h2>
+    <p>Puntuación: <span id="puntosFinales" class="puntosFinales"></span></p>
+    <p>Preguntas acertadas: <span id="acertadasFinales" class="acertadasFinales"></span></p>
+    <p>Preguntas falladas: <span id="falladasFinales" span="falladasFinales"></span></p>
+    <button onclick="location.reload()" class="btnOtraVez">Jugar otra vez</button>
+  </div>
+</div>
+
+</div>
+</body>
+
+</html>

@@ -1,0 +1,64 @@
+{
+    "preguntas": [
+        {
+            "pregunta": "La laia se ha sacado el carnet ya",
+            "opciones": {
+                "a": "puede ser",
+                "b": "le preguntare a su madre a ver",
+                "c": "no creo",
+                "d": "tiene pinta"
+            },
+            "solucion":"a"  
+        },
+        {
+            "pregunta": "El mateo va a coger el autobus?",
+            "opciones": {
+                "a":"no, el tren",
+                "b": "no, la renfe (puta renfe)",
+                "c": "no, andando",
+                "d": "no va "
+            },
+            "solucion": "d"
+        },
+        {
+            "pregunta": "Como se llama la madre del mateo?",
+            "opciones": {
+                "a": "Mongola",
+                "b": "Lurdes",
+                "c": "ana",
+                "d": "bob esponja"
+            },
+            "solucion": "b"
+        },
+             {
+            "pregunta": "Chikawa favorito de Maria",
+            "opciones": {
+                "a": "Usagi",
+                "b": "Chiikawa",
+                "c": "Hachiware",
+                "d": "Momonga"
+            },
+            "solucion": "a"
+        },
+             {
+            "pregunta": "Mi hora favorita",
+            "opciones": {
+                "a": "12:34",
+                "b": "06:07",
+                "c": "34:56",
+                "d": "22:22"
+            },
+            "solucion": "b"
+        },
+             {
+            "pregunta": "Cual es el mejor rio del mundo segun el mateo",
+            "opciones": {
+                "a": "Tajo",
+                "b": "Besos",
+                "c": "Foix",
+                "d": "Ebro"
+            },
+            "solucion": "c"
+        }
+    ]
+}
