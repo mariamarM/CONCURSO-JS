@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Concurso JS</title>
+    <link rel="stylesheet" href="./assets/style.css">
+    <script src="./assets/script.js" defer></script>
+    <!--fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap"
+        rel="stylesheet">
+    <!--animaciones-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+</head>
+
+<body>
+    
+    <img src="./img/cursor.png" class="custom-cursor" id="custom-cursor" />
+
+    <div class="cajatele">
+        <div class="todoInicio">
+            <label class="nombre">Escribe tu nombre</label>
+            <input type="text" id="nombre" data-name="nombre">
+            <br>
+
+        </div>
+        <div class="presentacion">
+            <div class="letra" onclick="salirdelJuego()">Salir
+            </div>
+            <div class="letra2" onclick="guardarNombre()" id="botonAceptar">Comenzar el juego
+            </div>
+        </div>
+
+    </div>
+    <!-- Mostrar nombre guardado -->
+    <!-- <div id="nombreJugadorDisplay" style="position:fixed; bottom:10px; right:10px; background:#fff; padding:6px 10px; border-radius:6px; box-shadow:0 2px 6px rgba(0,0,0,0.15);">
+        Nombre: <span id="nombreJugador">(sin nombre)</span>
+    </div> -->
+</body>
+
+</html>
